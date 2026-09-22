@@ -3,25 +3,9 @@ project(untitled2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(exo1 main.c
-)
-add_executable(exo2 pair.c)
-add_executable(exo3 calculatrice.c)
-add_executable(exo4 multiplication_table.c)
-add_executable(exo5 devinette.c)
-add_executable(exo6 maximum.c)
-add_executable(exo7 invert.c)
-add_executable(exo8 ring_buffer.c)
-add_executable(exo9 hello.c)
-add_executable(exe10 convert_farh.c)
-add_executable(exo11 convert_farh_update.c)
-add_executable(exo12 convert_fahr_for.c)
-add_executable(exo13 convert_fahr_define.c)
-add_executable(exo14 copy_get_put.c)
-add_executable(exo15 count.c)
-add_executable(exo16 count2.c)
-add_executable(exo17 count_lines.c)
-add_executable(exo18 space.c)
-add_executable(exo19 replacing.c)
-add_executable(exo20 count_words.c)
-add_executable(exo21 word_line.c)
+# On inclut les sous-dossiers
+add_subdirectory(test)
+add_subdirectory(chapter1)
+
+
+
